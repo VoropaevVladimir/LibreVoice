@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+
+# Xcode — build products
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Xcode — per-user state
+#
+# `xcuserdata` holds window positions, breakpoints and the local scheme list. It is
+# personal, changes constantly, and conflicts on every merge. The scheme that matters
+# lives in `xcshareddata/xcschemes` and is committed, so a fresh clone can build and
+# test without opening Xcode first.
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+#
+# `Packages/` is deliberately NOT ignored: Packages/LlamaRuntime is a vendored local
+# package (the llama.cpp wrapper), part of the source tree.
+.swiftpm/
+.build/
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Instruments
+*.trace
+
+# Injected secrets — LibreVoice has none today, and this keeps it that way by accident
+# as well as by intent.
+*.xcconfig.local
+secrets.plist
+
+# Vendored framework debug symbols
+#
+# whisper.xcframework and llama.xcframework ship dSYMs for every platform slice —
+# hundreds of megabytes each. They are debug symbols: nothing needs them to build, link
+# or run, and they would dominate every clone. The frameworks themselves are committed,
+# so the project still builds straight from a checkout.
+Frameworks/**/dSYMs/
+Packages/**/dSYMs/
+
+# Installers belong in GitHub Releases, not in history
+*.dmg

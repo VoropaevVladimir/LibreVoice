@@ -1,0 +1,3197 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ is already used by another app.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ уже используется другим приложением."
+          }
+        }
+      }
+    },
+    "%@ of %@": {
+      "comment": "Download progress, e.g. “12 MB of 466 MB”",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ of %2$@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ из %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%@:%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@:%2$lld"
+          }
+        }
+      }
+    },
+    "%lld / %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld / %2$lld"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "%lld records": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записей: %lld"
+          }
+        }
+      }
+    },
+    "2 minutes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 минуты"
+          }
+        }
+      }
+    },
+    "30 seconds": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 секунд"
+          }
+        }
+      }
+    },
+    "45 seconds": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "45 секунд"
+          }
+        }
+      }
+    },
+    "60 seconds": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "60 секунд"
+          }
+        }
+      }
+    },
+    "A downloaded language model, selected below": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загруженная языковая модель, выбранная ниже"
+          }
+        }
+      }
+    },
+    "A personal prompt in Settings › Writing Profile": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личный промпт в «Настройки › Профиль письма»"
+          }
+        }
+      }
+    },
+    "A personal prompt is a short set of instructions, not a document. Shorten it and try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личный промпт — это короткий набор инструкций, а не документ. Сократите его и попробуйте снова."
+          }
+        }
+      }
+    },
+    "A personal prompt, below": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личный промпт, ниже"
+          }
+        }
+      }
+    },
+    "A transcription is already running.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Распознавание уже выполняется."
+          }
+        }
+      }
+    },
+    "About": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О приложении"
+          }
+        }
+      }
+    },
+    "Accessibility": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Универсальный доступ"
+          }
+        }
+      }
+    },
+    "Activity": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активность"
+          }
+        }
+      }
+    },
+    "Add content to the file before importing it.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавьте в файл содержимое перед импортом."
+          }
+        }
+      }
+    },
+    "All": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все"
+          }
+        }
+      }
+    },
+    "Allow Microphone…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешить микрофон…"
+          }
+        }
+      }
+    },
+    "Allowed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешено"
+          }
+        }
+      }
+    },
+    "Allow…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешить…"
+          }
+        }
+      }
+    },
+    "Already switched on in System Settings but still not working? Select LibreVoice in the list, remove it with the “−” button, then add it again — macOS ties this permission to a specific copy of the app, and an update leaves the old entry behind.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уже включено в Системных настройках, но всё равно не работает? Выберите LibreVoice в списке, удалите кнопкой «−» и добавьте заново — macOS привязывает это разрешение к конкретной копии приложения, и после обновления остаётся старая запись."
+          }
+        }
+      }
+    },
+    "Another app is already using this combination, so holding it won't start dictation. Quit that app, or use ⌘D from this window.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эту комбинацию уже занимает другое приложение, поэтому удержание не запустит диктовку. Закройте то приложение или используйте ⌘D в этом окне."
+          }
+        }
+      }
+    },
+    "App": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложение"
+          }
+        }
+      }
+    },
+    "Audio": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аудио"
+          }
+        }
+      }
+    },
+    "Audio capture is already running.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Захват звука уже выполняется."
+          }
+        }
+      }
+    },
+    "Audio is processed and discarded. Transcripts live in memory until the session ends. The only thing written to disk is the speech models you download — and you can remove those any time.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Звук обрабатывается и удаляется. Расшифровки хранятся в памяти до конца сеанса. На диск записываются только загруженные вами модели распознавания — и их можно удалить в любой момент."
+          }
+        }
+      }
+    },
+    "Audio is transcribed on-device and never uploaded. The network is used for one thing only: downloading the speech models you choose, over HTTPS and verified by checksum. Those downloads carry no audio, no transcripts, and nothing that identifies you.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Звук распознаётся на устройстве и никогда не загружается в сеть. Сеть используется только для одного: загрузки выбранных вами моделей распознавания по HTTPS с проверкой контрольной суммы. Эти загрузки не содержат ни звука, ни расшифровок, ни данных, идентифицирующих вас."
+          }
+        }
+      }
+    },
+    "Balanced speed and quality. Cleans up capitalisation and punctuation.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Баланс скорости и качества. Исправляет заглавные буквы и пунктуацию."
+          }
+        }
+      }
+    },
+    "Balanced — corrections follow your profile where they help.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбалансированно — правки следуют профилю там, где это помогает."
+          }
+        }
+      }
+    },
+    "Balanced — corrections follow your prompt where they help.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбалансированно — правки следуют вашему промпту там, где это помогает."
+          }
+        }
+      }
+    },
+    "Because the source is open, none of the claims above have to be taken on trust.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Исходный код открыт, поэтому ни одно из утверждений выше не нужно принимать на веру."
+          }
+        }
+      }
+    },
+    "Behaviour": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поведение"
+          }
+        }
+      }
+    },
+    "Blocked by policy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заблокировано политикой"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
+          }
+        }
+      }
+    },
+    "Category": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Категория"
+          }
+        }
+      }
+    },
+    "Check LibreVoice Settings › Speech Engine.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверьте «Настройки LibreVoice › Движок распознавания»."
+          }
+        }
+      }
+    },
+    "Check that LibreVoice can write to your Application Support folder.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверьте, что LibreVoice может писать в папку Application Support."
+          }
+        }
+      }
+    },
+    "Check that the file exists and you have permission to read it.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Убедитесь, что файл существует и у вас есть право его читать."
+          }
+        }
+      }
+    },
+    "Check your internet connection and try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверьте подключение к интернету и повторите попытку."
+          }
+        }
+      }
+    },
+    "Choose a different language, or a different engine.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите другой язык или другой движок."
+          }
+        }
+      }
+    },
+    "Choose a different microphone in LibreVoice Settings.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите другой микрофон в настройках LibreVoice."
+          }
+        }
+      }
+    },
+    "Choose a different shortcut in LibreVoice Settings › Shortcuts.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите другое сочетание в «Настройки LibreVoice › Сочетания клавиш»."
+          }
+        }
+      }
+    },
+    "Choose a different speech engine in LibreVoice Settings.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите другой движок распознавания в настройках LibreVoice."
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить"
+          }
+        }
+      }
+    },
+    "Click where you want the text to go, then dictate again.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите там, куда нужно вставить текст, и продиктуйте ещё раз."
+          }
+        }
+      }
+    },
+    "Close window": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть окно"
+          }
+        }
+      }
+    },
+    "Connect a microphone and try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключите микрофон и повторите попытку."
+          }
+        }
+      }
+    },
+    "Copied": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировано"
+          }
+        }
+      }
+    },
+    "Copies an instruction for an external AI. LibreVoice contacts nothing.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Копирует инструкцию для внешнего ИИ. LibreVoice никуда не обращается."
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Копировать"
+          }
+        }
+      }
+    },
+    "Copy instead": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать вместо этого"
+          }
+        }
+      }
+    },
+    "Copy the instruction for an external AI": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать инструкцию для внешнего ИИ"
+          }
+        }
+      }
+    },
+    "Copy the instruction, paste it into ChatGPT, Claude, Gemini or Grok together with your own writing, then paste the prompt it returns back here.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопируйте инструкцию, вставьте её в ChatGPT, Claude, Gemini или Grok вместе со своими текстами, затем вставьте полученный промпт сюда."
+          }
+        }
+      }
+    },
+    "Copy these records to the clipboard": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать эти записи в буфер обмена"
+          }
+        }
+      }
+    },
+    "Couldn't import %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось импортировать %@"
+          }
+        }
+      }
+    },
+    "Creating your profile": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создание профиля"
+          }
+        }
+      }
+    },
+    "Current shortcut": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текущее сочетание"
+          }
+        }
+      }
+    },
+    "Debug": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отладка"
+          }
+        }
+      }
+    },
+    "Default": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По умолчанию"
+          }
+        }
+      }
+    },
+    "Dictate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диктовка"
+          }
+        }
+      }
+    },
+    "Dictate with this model": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диктовать с этой моделью"
+          }
+        }
+      }
+    },
+    "Dictation": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диктовка"
+          }
+        }
+      }
+    },
+    "Dictation mode": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Режим диктовки"
+          }
+        }
+      }
+    },
+    "Dictation needs a speech model on this Mac. Download one in Settings › Models — it's a one-time download, and everything stays offline.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для диктовки нужна модель распознавания на этом Mac. Загрузите её в «Настройки › Модели» — это одноразовая загрузка, и всё остаётся офлайн."
+          }
+        }
+      }
+    },
+    "Dictation status": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Статус диктовки"
+          }
+        }
+      }
+    },
+    "Disabled — the language model is not used.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выключено — языковая модель не используется."
+          }
+        }
+      }
+    },
+    "Dismiss": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        }
+      }
+    },
+    "Download": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузить"
+          }
+        }
+      }
+    },
+    "Download a language model in Settings › Precision.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузите языковую модель в «Настройки › Точный»."
+          }
+        }
+      }
+    },
+    "Download failed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка не удалась"
+          }
+        }
+      }
+    },
+    "Download the model in LibreVoice Settings › Speech Engine.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузите модель в «Настройки LibreVoice › Движок распознавания»."
+          }
+        }
+      }
+    },
+    "Downloading, %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка, %@"
+          }
+        }
+      }
+    },
+    "Engine": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Движок"
+          }
+        }
+      }
+    },
+    "English only": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только английский"
+          }
+        }
+      }
+    },
+    "Erase every recorded log entry": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стереть все записи журнала"
+          }
+        }
+      }
+    },
+    "Error": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка"
+          }
+        }
+      }
+    },
+    "Every engine transcribes on this Mac. Nothing is uploaded, whichever one you choose.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Любой движок распознаёт на этом Mac. Ничего не загружается в сеть, какой бы вы ни выбрали."
+          }
+        }
+      }
+    },
+    "Everything is transcribed on this Mac. Nothing is uploaded, stored, or sent anywhere.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё распознаётся на этом Mac. Ничего не загружается, не сохраняется и никуда не отправляется."
+          }
+        }
+      }
+    },
+    "Everything on this screen runs on this Mac. Your text is never sent anywhere.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё на этом экране работает на этом Mac. Ваш текст никуда не отправляется."
+          }
+        }
+      }
+    },
+    "Examples": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Примеры"
+          }
+        }
+      }
+    },
+    "Export the profile as a plain .md file encoded as UTF-8.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Экспортируйте профиль как обычный файл .md в кодировке UTF-8."
+          }
+        }
+      }
+    },
+    "Fast": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Быстрый"
+          }
+        }
+      }
+    },
+    "Fast and accurate, running on the Neural Engine. 25 languages including Russian.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Быстро и точно, на Neural Engine. 25 языков, включая русский."
+          }
+        }
+      }
+    },
+    "Finishing…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершение…"
+          }
+        }
+      }
+    },
+    "Formatting rules": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правила оформления"
+          }
+        }
+      }
+    },
+    "Free up some space and try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Освободите место и повторите попытку."
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Основные"
+          }
+        }
+      }
+    },
+    "Generate Personal Prompt": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать личный промпт"
+          }
+        }
+      }
+    },
+    "Generate a system prompt with any external AI and import it in Settings › Precision.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сгенерируйте системный промпт любым внешним ИИ и импортируйте его в «Настройки › Точный»."
+          }
+        }
+      }
+    },
+    "Getting ready": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готовлюсь"
+          }
+        }
+      }
+    },
+    "Global Shortcut": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глобальное сочетание"
+          }
+        }
+      }
+    },
+    "Global shortcut: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глобальное сочетание: %@"
+          }
+        }
+      }
+    },
+    "Hides the Dock icon; LibreVoice lives in the menu bar": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрывает значок в Dock — LibreVoice живёт в строке меню"
+          }
+        }
+      }
+    },
+    "Hold it down in any app and speak; release it and the text is typed at your cursor. Customising the combination isn't implemented yet.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зажмите в любом приложении и говорите; отпустите — и текст напечатается у курсора. Настройка сочетания пока не реализована."
+          }
+        }
+      }
+    },
+    "Hold this shortcut in any app and speak; release it to insert the text": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зажмите это сочетание в любом приложении и говорите; отпустите, чтобы вставить текст"
+          }
+        }
+      }
+    },
+    "Hold to dictate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удерживайте для диктовки"
+          }
+        }
+      }
+    },
+    "Hotkeys": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Горячие клавиши"
+          }
+        }
+      }
+    },
+    "Idle": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ожидание"
+          }
+        }
+      }
+    },
+    "Imported": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Импортирован"
+          }
+        }
+      }
+    },
+    "Imported %@ · %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Imported %1$@ · %2$@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Импортирован %1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "Import…": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Импортировать…"
+          }
+        }
+      }
+    },
+    "In LibreVoice": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В LibreVoice"
+          }
+        }
+      }
+    },
+    "Info": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Инфо"
+          }
+        }
+      }
+    },
+    "Input": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ввод"
+          }
+        }
+      }
+    },
+    "Inserting text": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставляю текст"
+          }
+        }
+      }
+    },
+    "Installed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Установлено"
+          }
+        }
+      }
+    },
+    "Installed, preparing": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Установлена, готовится"
+          }
+        }
+      }
+    },
+    "Instant dictation. Text is inserted exactly as recognised.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мгновенная диктовка. Текст вставляется ровно так, как распознан."
+          }
+        }
+      }
+    },
+    "Language": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык"
+          }
+        }
+      }
+    },
+    "Language model": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Языковая модель"
+          }
+        }
+      }
+    },
+    "Level": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уровень"
+          }
+        }
+      }
+    },
+    "LibreVoice": {},
+    "LibreVoice can't hear you until microphone access is turned on in System Settings.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreVoice не слышит вас, пока доступ к микрофону не включён в Системных настройках."
+          }
+        }
+      }
+    },
+    "LibreVoice doesn't have permission to type into other apps.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У LibreVoice нет разрешения печатать в других приложениях."
+          }
+        }
+      }
+    },
+    "LibreVoice doesn't have permission to use the microphone.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У LibreVoice нет разрешения на использование микрофона."
+          }
+        }
+      }
+    },
+    "LibreVoice needs Accessibility access to type transcribed text into other apps. It only writes text you dictated — it never reads your screen.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreVoice нужен Универсальный доступ, чтобы печатать распознанный текст в других приложениях. Он вводит только продиктованный вами текст и никогда не читает экран."
+          }
+        }
+      }
+    },
+    "LibreVoice needs permission to use the microphone.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreVoice нужно разрешение на использование микрофона."
+          }
+        }
+      }
+    },
+    "LibreVoice needs the microphone to hear what you say. Audio is transcribed on this Mac and is never uploaded.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreVoice нужен микрофон, чтобы слышать вас. Звук распознаётся на этом Mac и никогда не загружается в сеть."
+          }
+        }
+      }
+    },
+    "LibreVoice never writes your profile for you. Ask any external AI — ChatGPT, Claude, Gemini, Grok — to analyse your writing and produce the six files, then import them here.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreVoice никогда не пишет профиль за вас. Попросите любой внешний ИИ — ChatGPT, Claude, Gemini, Grok — проанализировать ваши тексты и создать шесть файлов, затем импортируйте их здесь."
+          }
+        }
+      }
+    },
+    "LibreVoice never writes your profile for you. Save the instruction below, give it to any external AI — ChatGPT, Claude, Gemini, Grok — along with your writing, and it produces the six files. Import them above.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreVoice никогда не пишет профиль за вас. Сохраните инструкцию ниже, передайте её любому внешнему ИИ — ChatGPT, Claude, Gemini, Grok — вместе со своими текстами, и он создаст шесть файлов. Импортируйте их выше."
+          }
+        }
+      }
+    },
+    "Licence": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лицензия"
+          }
+        }
+      }
+    },
+    "Light — only clear errors are fixed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Легко — исправляются только явные ошибки."
+          }
+        }
+      }
+    },
+    "Listening": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слушаю"
+          }
+        }
+      }
+    },
+    "Listening…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слушаю…"
+          }
+        }
+      }
+    },
+    "Llama, Qwen and Gemma are interchangeable — pick whichever suits your language and Mac. Downloads are verified against a SHA-256 fingerprint before use.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llama, Qwen и Gemma взаимозаменяемы — выберите ту, что подходит вашему языку и вашему Mac. Загрузки проверяются по отпечатку SHA-256 перед использованием."
+          }
+        }
+      }
+    },
+    "Log records from this session appear here.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записи журнала этого сеанса появятся здесь."
+          }
+        }
+      }
+    },
+    "Log records never contain what you said, are kept in memory only, and you can read every one of them on the Activity screen.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записи журнала никогда не содержат того, что вы говорили, хранятся только в памяти, и все их можно просмотреть на экране «Активность»."
+          }
+        }
+      }
+    },
+    "Logs stay on this Mac": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Журналы остаются на этом Mac"
+          }
+        }
+      }
+    },
+    "MIT — free and open source": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MIT — свободное ПО с открытым кодом"
+          }
+        }
+      }
+    },
+    "Maximum quality. Applies your terminology and custom rules.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Максимальное качество. Применяет вашу терминологию и правила."
+          }
+        }
+      }
+    },
+    "Maximum quality. Applies your terminology and, with a local model, your personal writing style.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Максимальное качество. Применяет вашу терминологию, а с локальной моделью — и ваш личный стиль письма."
+          }
+        }
+      }
+    },
+    "Maximum — the text reads exactly as you write.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Максимум — текст читается ровно так, как пишете вы."
+          }
+        }
+      }
+    },
+    "Memory": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Память"
+          }
+        }
+      }
+    },
+    "Microphone": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Микрофон"
+          }
+        }
+      }
+    },
+    "Microphone access needed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужен доступ к микрофону"
+          }
+        }
+      }
+    },
+    "Microphone level": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уровень микрофона"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Режим"
+          }
+        }
+      }
+    },
+    "Model download required": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Требуется загрузка модели"
+          }
+        }
+      }
+    },
+    "Models": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модели"
+          }
+        }
+      }
+    },
+    "Models download over HTTPS and are checked against a SHA-256 fingerprint before use. No audio is ever sent — only the model comes down.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модели загружаются по HTTPS и проверяются по отпечатку SHA-256 перед использованием. Никакой звук не отправляется — скачивается только модель."
+          }
+        }
+      }
+    },
+    "Moonshine (Experimental)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moonshine (экспериментальный)"
+          }
+        }
+      }
+    },
+    "Multilingual": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Многоязычная"
+          }
+        }
+      }
+    },
+    "Needs a model this build doesn't ship yet": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужна модель, которой ещё нет в этой сборке"
+          }
+        }
+      }
+    },
+    "No PROMPT.md has been imported.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PROMPT.md не импортирован."
+          }
+        }
+      }
+    },
+    "No analytics, no telemetry": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Никакой аналитики и телеметрии"
+          }
+        }
+      }
+    },
+    "No engine is implemented yet, so dictation can't run. The architecture is in place — each of these plugs in without changes elsewhere in the app.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ни один движок ещё не реализован, поэтому диктовка не работает. Архитектура готова — каждый из них подключается без изменений в остальном приложении."
+          }
+        }
+      }
+    },
+    "No microphone is available.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Микрофон недоступен."
+          }
+        }
+      }
+    },
+    "No models available": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет доступных моделей"
+          }
+        }
+      }
+    },
+    "No speech engine available": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет доступного движка распознавания"
+          }
+        }
+      }
+    },
+    "No speech engine is available.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет доступного движка распознавания."
+          }
+        }
+      }
+    },
+    "No speech engines": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет движков распознавания"
+          }
+        }
+      }
+    },
+    "Not allowed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не разрешено"
+          }
+        }
+      }
+    },
+    "Not available in this build": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Недоступно в этой сборке"
+          }
+        }
+      }
+    },
+    "Not downloaded": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не загружено"
+          }
+        }
+      }
+    },
+    "Not enough disk space: %@ needed, %@ free.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Not enough disk space: %1$@ needed, %2$@ free."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Недостаточно места на диске: нужно %1$@, свободно %2$@."
+          }
+        }
+      }
+    },
+    "Not imported": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не импортирован"
+          }
+        }
+      }
+    },
+    "Not requested": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не запрошено"
+          }
+        }
+      }
+    },
+    "Not yet available": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока недоступно"
+          }
+        }
+      }
+    },
+    "Nothing is measured, counted, or reported. There is no server to report to.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ничего не измеряется, не подсчитывается и не отправляется. Отправлять некуда — сервера нет."
+          }
+        }
+      }
+    },
+    "Nothing recorded": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ничего не записано"
+          }
+        }
+      }
+    },
+    "OK": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ОК"
+          }
+        }
+      }
+    },
+    "On device": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На устройстве"
+          }
+        }
+      }
+    },
+    "Open LibreVoice": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть LibreVoice"
+          }
+        }
+      }
+    },
+    "Open System Settings › Privacy & Security › Accessibility and turn on LibreVoice.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте «Системные настройки › Конфиденциальность и безопасность › Универсальный доступ» и включите LibreVoice."
+          }
+        }
+      }
+    },
+    "Open System Settings › Privacy & Security › Microphone and turn on LibreVoice.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте «Системные настройки › Конфиденциальность и безопасность › Микрофон» и включите LibreVoice."
+          }
+        }
+      }
+    },
+    "Open System Settings…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Системные настройки…"
+          }
+        }
+      }
+    },
+    "OpenAI's Whisper, running entirely on this Mac via whisper.cpp. Metal-accelerated on Apple silicon.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Whisper от OpenAI, работает полностью на этом Mac через whisper.cpp. С ускорением Metal на Apple silicon."
+          }
+        }
+      }
+    },
+    "Optional": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Необязательно"
+          }
+        }
+      }
+    },
+    "Paste": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставить"
+          }
+        }
+      }
+    },
+    "Permissions": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешения"
+          }
+        }
+      }
+    },
+    "Personal prompt": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личный промпт"
+          }
+        }
+      }
+    },
+    "Personal writing profile": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личный профиль письма"
+          }
+        }
+      }
+    },
+    "Play a sound when dictation starts and stops": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Звук при старте и остановке диктовки"
+          }
+        }
+      }
+    },
+    "Precision": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Точный"
+          }
+        }
+      }
+    },
+    "Precision currently runs rules and terminology only. To enhance with a local model, all three are needed:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сейчас «Точный» применяет только правила и терминологию. Чтобы улучшать локальной моделью, нужны все три условия:"
+          }
+        }
+      }
+    },
+    "Precision currently runs rules and terminology only. To enhance with a local model: download and select a model, keep style strength above zero, and import PROMPT.md.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сейчас «Точный» применяет только правила и терминологию. Чтобы улучшать локальной моделью: загрузите и выберите модель, установите силу стиля выше нуля и импортируйте PROMPT.md."
+          }
+        }
+      }
+    },
+    "Precision dictation is enhanced by your local language model, following your personal prompt.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диктовка в режиме «Точный» улучшается вашей локальной языковой моделью по вашему личному промпту."
+          }
+        }
+      }
+    },
+    "Precision dictation is enhanced by your local language model, in your personal style.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диктовка в режиме «Точный» улучшается вашей локальной языковой моделью — в вашем личном стиле."
+          }
+        }
+      }
+    },
+    "Preferred word choices and replacements.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предпочитаемые слова и замены."
+          }
+        }
+      }
+    },
+    "Preparing for the Neural Engine — one time only, about a minute. You can keep using the app.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подготовка для Neural Engine — один раз, около минуты. Приложением можно пользоваться."
+          }
+        }
+      }
+    },
+    "Press this shortcut anywhere to start or stop dictation": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите это сочетание в любом месте, чтобы начать или остановить диктовку"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Конфиденциальность"
+          }
+        }
+      }
+    },
+    "Profile files are prose, not datasets — shorten it and try again.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файлы профиля — это проза, а не датасеты. Сократите файл и попробуйте снова."
+          }
+        }
+      }
+    },
+    "Quit LibreVoice": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить LibreVoice"
+          }
+        }
+      }
+    },
+    "Quotes, numbers, dates, times — the mechanical rules.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кавычки, числа, даты, время — механические правила."
+          }
+        }
+      }
+    },
+    "Ready": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        }
+      }
+    },
+    "Real before-and-after pairs of your writing.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настоящие пары «до → после» из ваших текстов."
+          }
+        }
+      }
+    },
+    "Recognising your speech": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Распознаю вашу речь"
+          }
+        }
+      }
+    },
+    "Remove this file from the profile": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить этот файл из профиля"
+          }
+        }
+      }
+    },
+    "Remove this model": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить эту модель"
+          }
+        }
+      }
+    },
+    "Replace…": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заменить…"
+          }
+        }
+      }
+    },
+    "Required": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обязателен"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить"
+          }
+        }
+      }
+    },
+    "Reset All Settings…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить все настройки…"
+          }
+        }
+      }
+    },
+    "Reset the prompt to the LibreVoice default?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить промпт к стандартному?"
+          }
+        }
+      }
+    },
+    "Reset to default": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить к стандартному"
+          }
+        }
+      }
+    },
+    "Retry": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить"
+          }
+        }
+      }
+    },
+    "Runs Whisper on the Apple silicon GPU. The fastest on-device option.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запускает Whisper на GPU Apple silicon. Самый быстрый вариант на устройстве."
+          }
+        }
+      }
+    },
+    "Runs Whisper on the CPU. Works on every Mac, including Intel.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запускает Whisper на CPU. Работает на любом Mac, включая Intel."
+          }
+        }
+      }
+    },
+    "Save the instruction (.md)…": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить инструкцию (.md)…"
+          }
+        }
+      }
+    },
+    "Saved": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранено"
+          }
+        }
+      }
+    },
+    "Saving…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранение…"
+          }
+        }
+      }
+    },
+    "Sends audio to %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправляет звук на %@"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки…"
+          }
+        }
+      }
+    },
+    "Setup": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройка"
+          }
+        }
+      }
+    },
+    "Shortcuts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетания клавиш"
+          }
+        }
+      }
+    },
+    "Show icon in the menu bar": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать значок в строке меню"
+          }
+        }
+      }
+    },
+    "Show only in the menu bar": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать только в строке меню"
+          }
+        }
+      }
+    },
+    "Six independent Markdown files that teach the model how you write. Import and update each one separately; they live in ~/Library/Application Support/LibreVoice/Profile.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Шесть независимых Markdown-файлов, которые учат модель тому, как вы пишете. Импортируйте и обновляйте каждый отдельно; они лежат в ~/Library/Application Support/LibreVoice/Profile."
+          }
+        }
+      }
+    },
+    "Smart": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Умный"
+          }
+        }
+      }
+    },
+    "Something went wrong": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что-то пошло не так"
+          }
+        }
+      }
+    },
+    "Speech": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Речь"
+          }
+        }
+      }
+    },
+    "Speech Engine": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Движок распознавания"
+          }
+        }
+      }
+    },
+    "Speech Models": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модели распознавания"
+          }
+        }
+      }
+    },
+    "Speech engines aren't implemented yet, so dictation can't run. The architecture is in place — see Settings › Speech Engine for what's planned.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Движки распознавания ещё не реализованы, поэтому диктовка не работает. Архитектура готова — см. «Настройки › Движок распознавания», что запланировано."
+          }
+        }
+      }
+    },
+    "Speech model needed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужна модель распознавания"
+          }
+        }
+      }
+    },
+    "Start / stop dictation": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать / остановить диктовку"
+          }
+        }
+      }
+    },
+    "Start Dictation": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать диктовку"
+          }
+        }
+      }
+    },
+    "Starting…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запуск…"
+          }
+        }
+      }
+    },
+    "Stop Dictation": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Остановить диктовку"
+          }
+        }
+      }
+    },
+    "Stop using a language model": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не использовать языковую модель"
+          }
+        }
+      }
+    },
+    "Streaming recognition with very low latency. Not available in this build yet.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Потоковое распознавание с очень низкой задержкой. Пока недоступно в этой сборке."
+          }
+        }
+      }
+    },
+    "Strong — wording and formatting actively follow your profile.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сильно — формулировки и оформление активно следуют профилю."
+          }
+        }
+      }
+    },
+    "Strong — wording and formatting actively follow your prompt.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сильно — формулировки и оформление активно следуют вашему промпту."
+          }
+        }
+      }
+    },
+    "Style strength": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сила стиля"
+          }
+        }
+      }
+    },
+    "Style strength above zero": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сила стиля выше нуля"
+          }
+        }
+      }
+    },
+    "System Default": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Системный по умолчанию"
+          }
+        }
+      }
+    },
+    "System Language": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык системы"
+          }
+        }
+      }
+    },
+    "System prompt": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Системный промпт"
+          }
+        }
+      }
+    },
+    "Technical terms and protected words the model must never replace.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Технические термины и защищённые слова, которые модель не имеет права заменять."
+          }
+        }
+      }
+    },
+    "Terminology": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Терминология"
+          }
+        }
+      }
+    },
+    "Text Insertion": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставка текста"
+          }
+        }
+      }
+    },
+    "The Parakeet engine isn't ready.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Движок Parakeet не готов."
+          }
+        }
+      }
+    },
+    "The audio engine couldn't start: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось запустить аудиодвижок: %@"
+          }
+        }
+      }
+    },
+    "The download failed: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка не удалась: %@"
+          }
+        }
+      }
+    },
+    "The download was cancelled.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка отменена."
+          }
+        }
+      }
+    },
+    "The downloaded model didn't match its expected fingerprint and was discarded.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загруженная модель не совпала с ожидаемым отпечатком и была отклонена."
+          }
+        }
+      }
+    },
+    "The file couldn't be imported.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файл не удалось импортировать."
+          }
+        }
+      }
+    },
+    "The file couldn't be read.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файл не удалось прочитать."
+          }
+        }
+      }
+    },
+    "The file is %@ — larger than the %@ limit.": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "The file is %1$@ — larger than the %2$@ limit."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файл занимает %1$@ — больше предела в %2$@."
+          }
+        }
+      }
+    },
+    "The file is empty.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файл пуст."
+          }
+        }
+      }
+    },
+    "The language model couldn't improve the text: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Языковой модели не удалось улучшить текст: %@"
+          }
+        }
+      }
+    },
+    "The microphone “%@” is no longer available.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Микрофон «%@» больше недоступен."
+          }
+        }
+      }
+    },
+    "The model catalog is empty or couldn't be read.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каталог моделей пуст или не читается."
+          }
+        }
+      }
+    },
+    "The model couldn't be saved: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось сохранить модель: %@"
+          }
+        }
+      }
+    },
+    "The model loads only while improving text and is released after this much idle time, so it never sits in memory permanently.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модель загружается только на время улучшения текста и выгружается после этого времени простоя — она никогда не сидит в памяти постоянно."
+          }
+        }
+      }
+    },
+    "The prompt couldn't be saved.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось сохранить промпт."
+          }
+        }
+      }
+    },
+    "The prompt couldn't be saved: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось сохранить промпт: %@"
+          }
+        }
+      }
+    },
+    "The prompt is %lld characters — longer than the %lld character limit.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "The prompt is %1$lld characters — longer than the %2$lld character limit."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В промпте %1$lld символов — больше предела в %2$lld символов."
+          }
+        }
+      }
+    },
+    "The recogniser returned an error (code %d).": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Распознаватель вернул ошибку (код %d)."
+          }
+        }
+      }
+    },
+    "The selected language model isn't installed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбранная языковая модель не установлена."
+          }
+        }
+      }
+    },
+    "The shortcut couldn't be registered (error %d).": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось зарегистрировать сочетание (ошибка %d)."
+          }
+        }
+      }
+    },
+    "The speech engine wasn't prepared.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Движок распознавания не был подготовлен."
+          }
+        }
+      }
+    },
+    "The speech engine “%@” isn't available in this version of LibreVoice.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Движок распознавания «%@» недоступен в этой версии LibreVoice."
+          }
+        }
+      }
+    },
+    "The speech model couldn't be loaded. It may be corrupted — try downloading it again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось загрузить модель распознавания. Возможно, файл повреждён — попробуйте скачать её заново."
+          }
+        }
+      }
+    },
+    "The speech model “%@” hasn't been downloaded yet.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модель распознавания «%@» ещё не загружена."
+          }
+        }
+      }
+    },
+    "The system prompt for the model. Required — generate it with any external AI.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Системный промпт для модели. Обязателен — сгенерируйте его любым внешним ИИ."
+          }
+        }
+      }
+    },
+    "The text couldn't be inserted: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось вставить текст: %@"
+          }
+        }
+      }
+    },
+    "There's no text field to type into.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет текстового поля для ввода."
+          }
+        }
+      }
+    },
+    "This build has no local language model runtime.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В этой сборке нет рантайма локальной языковой модели."
+          }
+        }
+      }
+    },
+    "This build has no speech engines registered.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В этой сборке не зарегистрировано ни одного движка распознавания."
+          }
+        }
+      }
+    },
+    "This engine can't transcribe %@.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот движок не может распознавать %@."
+          }
+        }
+      }
+    },
+    "This isn't a plain-text Markdown file.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это не текстовый Markdown-файл."
+          }
+        }
+      }
+    },
+    "This looks like a problem with the model catalog. Report it to whoever provides your models.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Похоже, проблема в каталоге моделей. Сообщите об этом тому, кто предоставляет ваши модели."
+          }
+        }
+      }
+    },
+    "This model can only be downloaded over an insecure connection, so it was refused.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эту модель можно загрузить только по незащищённому соединению, поэтому загрузка отклонена."
+          }
+        }
+      }
+    },
+    "This model has an invalid identifier and can't be stored safely.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У этой модели недопустимый идентификатор, её нельзя безопасно сохранить."
+          }
+        }
+      }
+    },
+    "This prompt is given to the local language model in Precision mode. It teaches the model how you write — nothing else is sent with it, and it never leaves this Mac.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот промпт передаётся локальной языковой модели в режиме «Точный». Он учит модель тому, как вы пишете, — вместе с ним ничего больше не отправляется, и он никогда не покидает этот Mac."
+          }
+        }
+      }
+    },
+    "This prompt is given to the local language model. It teaches the model how you write — nothing else is sent with it, and it never leaves this Mac.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот промпт передаётся локальной языковой модели. Он учит модель тому, как вы пишете, — вместе с ним ничего больше не отправляется, и он никогда не покидает этот Mac."
+          }
+        }
+      }
+    },
+    "This shortcut works in any app. Customising it isn't implemented yet.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это сочетание работает в любом приложении. Его настройка пока не реализована."
+          }
+        }
+      }
+    },
+    "This speech engine can't run on your Mac: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот движок распознавания не может работать на вашем Mac: %@"
+          }
+        }
+      }
+    },
+    "Tiny and fast on short phrases. Not available in this build yet.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Крошечный и быстрый на коротких фразах. Пока недоступен в этой сборке."
+          }
+        }
+      }
+    },
+    "Tone, sentence length, punctuation habits, writing principles.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тон, длина предложений, привычная пунктуация, принципы письма."
+          }
+        }
+      }
+    },
+    "Transcription failed: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка распознавания: %@"
+          }
+        }
+      }
+    },
+    "Transcription was cancelled.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Распознавание отменено."
+          }
+        }
+      }
+    },
+    "Try again. If it keeps failing, the download source may be compromised — don't install it.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторите попытку. Если ошибка повторяется, источник загрузки может быть скомпрометирован — не устанавливайте модель."
+          }
+        }
+      }
+    },
+    "Try again. If it keeps happening, restart LibreVoice.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторите попытку. Если это повторяется, перезапустите LibreVoice."
+          }
+        }
+      }
+    },
+    "Type text into the frontmost app": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Печатать текст в активном приложении"
+          }
+        }
+      }
+    },
+    "Unload the model after": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выгружать модель через"
+          }
+        }
+      }
+    },
+    "Update LibreVoice to a build that includes the language model runtime.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновите LibreVoice до сборки с рантаймом языковой модели."
+          }
+        }
+      }
+    },
+    "Use": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использовать"
+          }
+        }
+      }
+    },
+    "Uses the recognition built into macOS. No download needed.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использует распознавание, встроенное в macOS. Загрузка не нужна."
+          }
+        }
+      }
+    },
+    "Using %@ of disk.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Занято на диске: %@."
+          }
+        }
+      }
+    },
+    "Verifying": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверка"
+          }
+        }
+      }
+    },
+    "Verifying…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверка…"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия"
+          }
+        }
+      }
+    },
+    "Vocabulary": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лексика"
+          }
+        }
+      }
+    },
+    "Warning": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предупреждение"
+          }
+        }
+      }
+    },
+    "What LibreVoice Does": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что делает LibreVoice"
+          }
+        }
+      }
+    },
+    "When off, text stays in LibreVoice and you copy it yourself": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Когда выключено, текст остаётся в LibreVoice, и вы копируете его сами"
+          }
+        }
+      }
+    },
+    "Whisper Models": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модели Whisper"
+          }
+        }
+      }
+    },
+    "Whisper Models (MLX)": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Модели Whisper (MLX)"
+          }
+        }
+      }
+    },
+    "Write your personal prompt in Settings › Writing Profile.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Напишите личный промпт в «Настройки › Профиль письма»."
+          }
+        }
+      }
+    },
+    "Writing Profile": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Профиль письма"
+          }
+        }
+      }
+    },
+    "Writing style": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стиль письма"
+          }
+        }
+      }
+    },
+    "Your current prompt will be replaced. Copy it first if you want to keep it.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текущий промпт будет заменён. Скопируйте его, если хотите сохранить."
+          }
+        }
+      }
+    },
+    "Your dictated text was inserted unchanged.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продиктованный текст вставлен без изменений."
+          }
+        }
+      }
+    },
+    "Your speech is never stored": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваша речь никогда не сохраняется"
+          }
+        }
+      }
+    },
+    "Your text is on the clipboard — click where it should go and press ⌘V.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш текст в буфере обмена — нажмите там, куда его вставить, и нажмите ⌘V."
+          }
+        }
+      }
+    },
+    "Your text is on the clipboard — press ⌘V to paste it.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш текст в буфере обмена — нажмите ⌘V, чтобы вставить."
+          }
+        }
+      }
+    },
+    "Your text is on the clipboard — press ⌘V to paste it. To have it typed automatically, open System Settings › Privacy & Security › Accessibility and turn on LibreVoice.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш текст в буфере обмена — нажмите ⌘V, чтобы вставить. Чтобы текст печатался автоматически, откройте «Системные настройки › Конфиденциальность и безопасность › Универсальный доступ» и включите LibreVoice."
+          }
+        }
+      }
+    },
+    "Your voice never leaves this Mac": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш голос не покидает этот Mac"
+          }
+        }
+      }
+    },
+    "Your words appear here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь появятся ваши слова"
+          }
+        }
+      }
+    },
+    "Your writing profile is empty.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш профиль письма пуст."
+          }
+        }
+      }
+    },
+    "the server sent more data than the model's declared size": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "сервер прислал больше данных, чем заявленный размер модели"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,66 @@
+{
+  "_comment": "LibreVoice language-model catalog (GGUF instruct models for the llama.cpp runtime, used only by Precision mode). The trust anchor for model integrity: each file's sha256 is verified after download, and comes from the Hugging Face LFS metadata of the exact revision listed. Regenerate against the source repository when adding models; never hand-edit a sha256.",
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "qwen2.5-1.5b-instruct",
+      "engineID": "llama-cpp",
+      "displayName": "Qwen 2.5 1.5B",
+      "summary": "The recommended balance. Strong Russian and English, fast on Apple silicon.",
+      "languageSupport": "multilingual",
+      "files": [
+        {
+          "path": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+          "sizeBytes": 1117320736,
+          "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e"
+        }
+      ]
+    },
+    {
+      "id": "qwen2.5-0.5b-instruct",
+      "engineID": "llama-cpp",
+      "displayName": "Qwen 2.5 0.5B",
+      "summary": "The fastest and smallest. Light corrections with minimal memory.",
+      "languageSupport": "multilingual",
+      "files": [
+        {
+          "path": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+          "sizeBytes": 491400032,
+          "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db"
+        }
+      ]
+    },
+    {
+      "id": "llama-3.2-3b-instruct",
+      "engineID": "llama-cpp",
+      "displayName": "Llama 3.2 3B",
+      "summary": "The most capable in this catalog. Slower and heavier; best for long texts.",
+      "languageSupport": "multilingual",
+      "files": [
+        {
+          "path": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+          "url": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+          "sizeBytes": 2019377696,
+          "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff"
+        }
+      ]
+    },
+    {
+      "id": "gemma-2-2b-it",
+      "engineID": "llama-cpp",
+      "displayName": "Gemma 2 2B",
+      "summary": "Google's compact model. A solid middle ground for European languages.",
+      "languageSupport": "multilingual",
+      "files": [
+        {
+          "path": "gemma-2-2b-it-Q4_K_M.gguf",
+          "url": "https://huggingface.co/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf",
+          "sizeBytes": 1708582752,
+          "sha256": "e0aee85060f168f0f2d8473d7ea41ce2f3230c1bc1374847505ea599288a7787"
+        }
+      ]
+    }
+  ]
+}

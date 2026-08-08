@@ -1,0 +1,15 @@
+{
+  "fill" : { "linear-gradient" : [ "srgb:0.24,0.50,0.98,1", "srgb:0.36,0.40,0.95,1" ] },
+  "groups" : [
+    {
+      "layers" : [
+        { "image-name" : "layer-V.png" },
+        { "image-name" : "layer-L.png" }
+      ]
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [ "watchOS" ],
+    "squares" : [ "iOS", "macOS" ]
+  }
+}

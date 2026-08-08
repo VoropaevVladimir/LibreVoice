@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The microphone. The only capability LibreVoice asks the system for. -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+
+	<!-- Allows the embedded frameworks to load despite not being signed by a registered
+	     team.
+
+	     This is a real weakening — it switches off the check that every library loaded
+	     into the process comes from the same team as the app — and it is here under
+	     protest, not by preference. It was tested: with the entitlement removed and
+	     whisper.framework and llama.framework signed by the same self-signed identity as
+	     the app, launch fails outright with
+
+	         Library not loaded: @rpath/llama.framework/Versions/Current/llama
+	         Reason: code signature not valid for use in process
+
+	     because library validation matches on Team ID, and a self-signed certificate has
+	     none. The only fix is a genuine Developer ID. When release signing moves to one,
+	     sign the app and both frameworks with it and delete this key — do not assume it
+	     is still needed, re-run the test above.
+
+	     NOT here, and deliberately: com.apple.security.get-task-allow. That debug
+	     entitlement lets any process running as this user attach to LibreVoice and read
+	     its memory — microphone audio, transcripts, the personal prompt. Release builds
+	     carried it for months because sign.sh copied entitlements back out of whatever
+	     Xcode had signed instead of stating them. It also makes notarisation impossible. -->
+	<key>com.apple.security.cs.disable-library-validation</key>
+	<true/>
+</dict>
+</plist>

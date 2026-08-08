@@ -1,0 +1,40 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NSHumanReadableCopyright" : {
+      "comment" : "Copyright notice.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 LibreVoice contributors. MIT Licensed."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2026 Участники LibreVoice. Лицензия MIT."
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Shown in the system microphone-permission dialog.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LibreVoice needs microphone access to turn your speech into text. Audio is processed entirely on this Mac and never leaves your device."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LibreVoice нужен доступ к микрофону, чтобы превращать вашу речь в текст. Звук обрабатывается полностью на этом Mac и никогда не покидает устройство."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
