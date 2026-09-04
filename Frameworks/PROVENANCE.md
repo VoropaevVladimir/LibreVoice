@@ -8,9 +8,7 @@
 - Location: `Packages/LlamaRuntime/llama.xcframework` — inside the local Swift package,
   not this folder, because llama's bundled ggml must never share a Swift module with
   whisper's (see `Packages/LlamaRuntime/Package.swift`)
-
-To update: download the new release's xcframework zip, verify its checksum against the
-release page, replace this folder, and update this file.
+- **Trimmed**: only the `macos-arm64_x86_64` slice is committed (see below)
 
 # whisper.xcframework
 
@@ -22,9 +20,35 @@ release page, replace this folder, and update this file.
   package, for the same reason llama has one. Both runtimes carry incompatible copies of
   ggml, so neither may be visible from the app's Swift module (see
   `Packages/WhisperRuntime/Package.swift`).
+- **Trimmed**: only the `macos-arm64_x86_64` slice is committed (see below)
 
-To update: download the new release's xcframework zip, verify its checksum against the
-release page, replace that folder, and update this file.
+## What is committed, and how to verify it
+
+Both xcframeworks ship seven platform slices — iOS, tvOS, visionOS, their simulators, and
+macOS. LibreVoice is a macOS app: the other six never compile, never link, and never reach
+the built product. Committing them cost **79 MB of the 98 MB** every clone had to download,
+for files nothing in this repository can use. Only `macos-arm64_x86_64` is committed now,
+and each `Info.plist` lists that one slice — a manifest advertising slices that are not on
+disk is a manifest Xcode will trip over.
+
+The checksums above are of the **official release zips**, and that is what verification
+runs against — before extraction, and independently of what this repository keeps
+afterwards. To re-verify from scratch:
+
+```bash
+curl -LO <the Source URL above>
+shasum -a 256 <the downloaded zip>          # compare with the SHA-256 above
+unzip <the downloaded zip>
+```
+
+The extracted `macos-arm64_x86_64` directory is the one committed here, byte for byte.
+Nothing about trimming weakens that check: there is no published per-file manifest to
+match a whole extracted folder against, so the zip's hash was always the anchor.
+
+To update either framework: download the new release's zip, verify its checksum against
+the release page, extract it, replace the committed folder with the new release's
+`macos-arm64_x86_64` slice, prune the copied `Info.plist` to that slice, and update the
+version and checksum here.
 
 ## Signing note
 
