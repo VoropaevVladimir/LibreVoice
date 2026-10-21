@@ -101,11 +101,7 @@ struct ModelRowView: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: symbolName)
-                .font(.title3)
-                .foregroundStyle(row.state.isInstalled ? Color.accentColor : .secondary)
-                .frame(width: 26)
-                .accessibilityHidden(true)
+            leadingIcon
 
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 6) {
@@ -132,6 +128,39 @@ struct ModelRowView: View {
         .accessibilityElement(children: .contain)
         .accessibilityLabel(row.descriptor.displayName)
         .accessibilityValue(accessibilityStateText)
+    }
+
+    private var vendor: ModelVendor? { ModelVendor(modelID: row.descriptor.id.rawValue) }
+
+    /// The maker's mark with install state as a small badge, so one glance tells both
+    /// "whose model" and "is it ready". Models without a known maker keep the state symbol.
+    @ViewBuilder
+    private var leadingIcon: some View {
+        if let vendor {
+            Image(vendor.assetName)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 22, height: 22)
+                .foregroundStyle(vendor == .nvidia ? Color(red: 0.463, green: 0.725, blue: 0) : Color.primary)
+                .opacity(row.state.isInstalled ? 1 : 0.65)
+                .overlay(alignment: .bottomTrailing) {
+                    if row.state.isInstalled {
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.system(size: 11))
+                            .foregroundStyle(.white, Color.accentColor)
+                            .offset(x: 5, y: 5)
+                    }
+                }
+                .frame(width: 26)
+                .help(vendor.displayName)
+                .accessibilityHidden(true)
+        } else {
+            Image(systemName: symbolName)
+                .font(.title3)
+                .foregroundStyle(row.state.isInstalled ? Color.accentColor : .secondary)
+                .frame(width: 26)
+                .accessibilityHidden(true)
+        }
     }
 
     private var symbolName: String {
